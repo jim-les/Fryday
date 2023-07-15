@@ -1,0 +1,346 @@
+
+.webLogo {
+    font-size: 50px;
+    color: darkblue;
+}
+
+.heartLogo {
+    color: darkblue;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navtabdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navTabs {
+    display: flex;
+    margin: 1px 10px;
+}
+
+    .navTabs .NavItems {
+        padding: 5px 15px;
+        list-style: none;
+    }
+
+        .navTabs .NavItems a {
+            text-decoration: none;
+            color: darkblue;
+            font-weight: 800;
+        }
+
+.cartLovePrice {
+    display: flex;
+    align-items: center;
+}
+
+.productItem a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.search_div{
+    background-color: darkblue;
+    display: flex;
+    justify-content:center;
+}
+.search-box{
+    width: 400px;
+}
+/* Carpusel */
+.carouselDiv {
+    background-color: lightblue;
+}
+.trendingProducts {
+    color: blue;
+    font-weight: 800;
+}
+.carousel {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    background: rgba(61, 176, 185, 0.6);
+    background-image: url("../carousel_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel_info_section {
+    padding: 20px 20px;
+    box-shadow: 0 0 10px 10px white;
+}
+
+.carousel_btn_1 {
+    background-color: black;
+    color: white;
+}
+
+.carousel_info_1 {
+    font-style: italic;
+    font-size: 40px;
+}
+
+.carousel_info_2 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.carousel_btn_2 {
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}
+
+/* trending products  */
+/* time limit */
+.time_div {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    margin: 3px 3px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+}
+
+/* product */
+.product {
+    border: 1px solid black;
+    padding: 30px 5px;
+    border-radius: 5px;
+    /*box-shadow: 0 0 10px 10px;*/
+    height: 250px;
+}
+
+.product_price {
+    font-weight: 800;
+    color: darkblue;
+}
+
+.product_previous_price {
+}
+
+.product_order_btn {
+    background: linear-gradient(darkblue, aqua);
+    color: white;
+    font-weight: 800;
+}
+
+/* Filter */
+.applyFilterBtn {
+    background-color: darkblue;
+    color: white;
+    margin: 10px 10px;
+}
+
+
+/*hghjkl;*/
+.getYourToday {
+    color: blue;
+    font-weight: 800;
+}
+
+.giftBox {
+    font-size: 50px;
+    color: red;
+}
+.product_rating {
+    margin-top: -15px;
+}
+.FlasSale{
+    color: darkblue;
+}
+
+.fa-star{
+    font-size: 12px;
+}
+
+.filterDiv {
+    border: 1px solid black;
+    height: 100%;
+    padding: 20px 5px;
+}
+
+.filterDiv label{
+    color: darkblue;
+    font-weight: 800
+}
+
+
+/* product */
+.product {
+    border: 1px solid black;
+    padding: 30px 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 10px;
+}
+
+.product_price {
+    font-weight: 800;
+    color: darkblue;
+}
+
+.product_previous_price {
+}
+
+.product_order_btn {
+    background: linear-gradient(darkblue, aqua);
+    color: white;
+    font-weight: 800;
+}
+
+/* Filter */
+.applyFilterBtn {
+    background-color: darkblue;
+    color: white;
+    margin: 10px 10px;
+}
+
+.cartPage {
+    width: 70%;
+}
+
+.cartPageTitle {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.tableHeaders {
+    background-color: rgba(172, 174, 175, 0.3);
+}
+
+.image_div_cart {
+    width: 30%;
+}
+
+.cartproductImage {
+    width: 60%;
+    border-radius: 5px;
+}
+
+.cartPlusSign {
+    border: 1px solid black;
+    width: 20px;
+    text-align: center;
+    margin-right: -1px;
+}
+
+.cartProductQuontity {
+    width: 30px;
+    text-align: center;
+}
+
+.cartMinusSign {
+    border: 1px solid black;
+    width: 20px;
+    text-align: center;
+    margin-left: -1px;
+}
+
+.checkCard {
+    background-color: rgba(100, 150, 200, 0.5);
+    padding: 20px 5px;
+}
+
+.check_card_title {
+    font-weight: 800;
+}
+
+.check_div_bottom {
+    background-color: rgba(100, 120, 220, 0.9);
+    padding: 20px 0;
+}
+
+.totalAmount {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.productDetails {
+}
+
+.alternativeProducts {
+    height: 150px;
+}
+
+.Description {
+    font-weight: 800;
+    color: darkblue;
+}
+
+.shippingPage {
+    width: 60%;
+}
+
+.shippingForm {
+    background-color: rgba(100, 200, 255, 0.1);
+}
+
+    .shippingForm input[type="text"], .shippingForm[type="email"] {
+        width: 90%;
+        height: 40px
+    }
+
+.shippingMethod {
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.placeOrderBtn {
+    border-radius: 30px;
+    padding: 5px 40px;
+    background-color: darkblue;
+    color: white;
+}
+
+.loginPage .card{
+    width: 18rem;
+    box-shadow: 0px 0px 10px 10px;
+    height: 300px;
+}
+.loginPage input{
+    border-radius: 30px;
+    width:90%;
+    height: 40px;
+    text-align: center;
+}
+.loginPage .title{
+    color: darkblue;
+    font-weight: 800;
+    font-size: 33px;
+    text-align: center;
+}
+
+.loginPage input[type="submit"]{
+    background-color: darkblue;
+}
+
+.cartAdditon {
+    border: 1px solid black;
+    width: 20px;
+    text-align: center;
+    margin-right: -1px;
+}
+.cartProductDetailsTotal {
+    width: 30px;
+    text-align: center;
+}
+
+.cartSubtraction {
+    border: 1px solid black;
+    width: 20px;
+    text-align: center;
+    margin-left: -1px;
+}
+.product-image {
+    background-image: url("../carousel_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,234 @@
+:root{
+    --color-primary:  rgb(34, 156, 176);
+    --color-secondary: rgb(232, 196, 129);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar_section{
+    background-color: white;
+}
+.upper_navbar{
+    background-color: rgb(196, 234, 196);
+    border-bottom: 1px solid blue;
+}
+
+.webTitle{
+    font-family: fantasy;
+}
+
+.navItem{
+    list-style: none;
+    font-weight: 700;
+    color: black;
+}
+
+
+.search_input_box{
+    padding: 3px 20px;
+    border-radius: 30px;
+}
+
+
+/* ********************* carousel ***************** */
+.carousel_info_one{
+    color: gray;
+    font-style: italic;
+}
+
+.carousel_info_two{
+    font-weight: 800;
+}
+
+.carousel_info_three{
+    font-weight: 700;
+    color: var(--color-primary);
+    font-size: 49px;
+}
+
+.carousel_info_four{
+    font-size: 10px;
+}
+
+.shopNow{
+    background-color: var(--color-primary);
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+/* ******************* popular category **************** */
+.popular_category_section .title{
+    font-weight: 800;
+    font-size: 18px;
+}
+.popular_category_section .title span{
+    color: var(--color-primary);
+}
+
+.popularProductItem{
+    width: 170px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.control_scrollers{
+    border: 1px solid gray;
+    padding: 5px 10px;
+    margin: 0 2px;
+    width: 30px;
+    height: 30px;
+    color: black;
+    border-radius: 100%;
+}
+
+.control_scrollers:hover{
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.featuredTabs_div button{
+    padding: 5px 14px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.featured_tab{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.popular_tab, .newAdded_tab{
+    background-color: aliceblue;
+}
+
+.featured_products{
+    width: 95%;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.featured_products img{
+    border-radius: 15px;
+
+}
+.category{
+    margin: 0;
+    margin-top: 6px;
+}
+.product_name{
+    margin: 0;
+    font-weight: 800;
+}
+.stars_rating i{
+    color: var(--color-secondary);
+    font-size: 11px;
+}
+.current_price{
+    color: var(--color-primary);
+    font-weight: 800;
+}
+
+.previous_price{
+    margin-left: 10px;
+    margin-top: 5px;
+    text-decoration: line-through;
+    color: gray;
+    font-size: 12px;
+}
+
+.fa-clipboard{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 3px;
+    background-color: var(--color-primary);
+}
+
+
+/* **************** deals css *************** */
+.deal_div{
+    background-image: url("img/deals-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deal2_div{
+    background-image: url("img/deals-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deal_label_one{
+    color: var(--color-primary);
+    font-weight: 700;
+}
+.deal_label_two{
+    font-size: 12px;
+    color: gray;
+}
+
+.days{
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+}
+.timer label{
+    font-size: 13px;
+}
+.deals_shop_now{
+    border: 2px solid var(--color-primary);
+    background-color: transparent;
+    padding: 3px 10px;
+    color: var(--color-primary);
+}
+
+/* ************** footer ************ */
+.call_to_action{
+    padding: 20px 0;
+    background-color:  rgb(196, 234, 196);
+}
+
+.email_input{
+    height: 39px;
+    padding-left: 20px;
+    margin-right: -10px;
+}
+
+
+/* ***********************cart page css ***************** */
+.cart_input_quontity {
+    width: 50px;
+}
+
+.add_cart_btn {
+    background-color: var(--color-primary);
+    height: 33px;
+    padding: 0px 20px;
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+}
+
+.cart_product_title {
+    font-size: 22px;
+}
+
+.cart_image_added {
+    width: 10%;
+}
